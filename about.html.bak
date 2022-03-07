@@ -58,14 +58,14 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">A<span>li</span>ma</a>
+                <a href="index.html" class="navbar-brand">Y<span>oo</span>ga</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+					    <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="class.html" class="nav-item nav-link">Hobby</a>
                         <div class="nav-item dropdown">
@@ -75,7 +75,7 @@
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -88,69 +88,97 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Contact</h2>
+                        <h2>About Us</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">Contact</a>
+                        <a href="">About Us</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
 
-
-        <!-- Contact Start -->
-        <div class="contact">
+        <!-- Team Start -->
+        <div class="team">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Get In Touch</p>
-                    <h2>For Any Query</h2>
+                    <p>Yoga Trainer</p>
+                    <h2>Expert Yoga Trainer</h2>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-							<div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Berliana Elfada</h2>
-                                    <p>info@example.com</p>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-							<div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Muhamad Fariz Ibnu</h2>
-                                    <p>fariz.muhamad.tif421@polban.ac.id</p>
+                            <div class="team-text">
+                                <h2>Millie Harper</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Muhammad Fadhil</h2>
-                                    <p>muhammad.fadhil.tif421@polban.ac.id</p>
+                            <div class="team-text">
+                                <h2>Lilly Fry</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-							 <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Raihan Shidqi Pangestu</h2>
-                                    <p>raihan.shidqi.tif421@polban.ac.id</p>
+                            <div class="team-text">
+                                <h2>Elise Moran</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-							 <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Salma Edyna Putri</h2>
-                                    <p>salma.edyna.tif421@polban.ac.id</p>
-                                </div>
+                            <div class="team-text">
+                                <h2>Kate Glover</h2>
+                                <p>Yoga Teacher</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+        <!-- Team End -->
 
 
         <!-- Footer Start -->
