@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>YOOGA - Free Yoga Website Template</title>
+        <title>Alima</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -33,14 +33,10 @@
                     <div class="col-md-8">
                         <div class="top-bar-left">
                             <div class="text">
-                                <i class="far fa-clock"></i>
-                                <h2>8:00 - 9:00</h2>
-                                <p>Mon - Fri</p>
+                                <h2>Kelompok A5</h2>
                             </div>
                             <div class="text">
-                                <i class="fa fa-phone-alt"></i>
-                                <h2>+123 456 7890</h2>
-                                <p>For Appointment</p>
+                                <h2>Berliana Elfada, Muhammad Fariz Ibnu, Muhammad Fadhil, Raihan Shidqi Pangestu, Salma Edyna Putri</h2>
                             </div>
                         </div>
                     </div>
@@ -69,13 +65,9 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
+					    <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="class.html" class="nav-item nav-link">Class</a>
-                        <a href="team.html" class="nav-item nav-link">Trainer</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Pose</a>
+                        <a href="class.html" class="nav-item nav-link">Hobby</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                             <div class="dropdown-menu">
@@ -96,96 +88,97 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Service</h2>
+                        <h2>About Us</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">Service</a>
+                        <a href="">About Us</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
 
-
-        <!-- Service Start -->
-        <div class="service">
+        <!-- Team Start -->
+        <div class="team">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What we do</p>
-                    <h2>Yoga For Health</h2>
+                    <p>Yoga Trainer</p>
+                    <h2>Expert Yoga Trainer</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout"></i>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                            <h3>Heal emotions</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
+                            <div class="team-text">
+                                <h2>Millie Harper</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item active">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-1"></i>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                            <h3>Body Refreshes</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
+                            <div class="team-text">
+                                <h2>Lilly Fry</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-2"></i>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                            <h3>Mind & Serenity</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
+                            <div class="team-text">
+                                <h2>Elise Moran</h2>
+                                <p>Yoga Teacher</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-3"></i>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
-                            <h3>Enjoy Your life</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-4"></i>
+                            <div class="team-text">
+                                <h2>Kate Glover</h2>
+                                <p>Yoga Teacher</p>
                             </div>
-                            <h3>Body & Spirituality</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-yoga-pose"></i>
-                            </div>
-                            <h3>Body & Mind</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Service End -->
+        <!-- Team End -->
 
 
         <!-- Footer Start -->
@@ -193,11 +186,11 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="footer-info">
-                        <a href="index.html" class="footer-logo">Y<span>oo</span>ga</a>
-                        <h3>123 Street, New York, USA</h3>
+                        <a href="index.html" class="footer-logo">A<span>li</span>ma</a>
+                        <h3>Politeknik Negeri Bandung</h3>
                         <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
+                            <p>Ciwaruga, Parongpong, Kab. Bandung Barat</p>
+                            <p>polban@polban.ac.id</p>
                         </div>
                         <div class="footer-social">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -211,7 +204,7 @@
                 <div class="container copyright">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                            <p>&copy; <a href="#">Kelompok A5 2022</a>, All Right Reserved.</p>
                         </div>
                         <div class="col-md-6">
                             <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
