@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Alima</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+  </head>
+
+  <body>
+     <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="top-bar-left">
+              <div class="text">
+                <h2>Kelompok A5</h2>
+              </div>
+              <div class="text">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-bar-right">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">A<span>li</span>ma</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="index.html" class="nav-item nav-link ">Home</a>
+            <a href="about.html" class="nav-item nav-link">Profile Group</a>
+            <a href="class.html" class="nav-item nav-link">Hobby</a>
+            <a href="price.html" class="nav-item nav-link">Skill</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="visualisasi.html" class="nav-item nav-link active">Visualisasi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Visualisasi</h2>
+          </div>
+          <div class="col-12">
+            <a href="index.html">Home</a>
+            <a href="visualisasi.html">Visualisasi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="contact">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>VISUALISASI DATA</p>
+          <h2>LSPE Kalimantan Barat</h2>
+        </div>
+
+        <div class="container">
+          <h3 style="text-align: center;">Jumlah Peserta Tender Pertahun</h3>
+          <canvas id="myChart"></canvas>
+        </div>
+
+        <div class="container">
+          <p style="color: transparent;">  s</p>
+          <p style="color: transparent;">  s</p>
+          <h3 style="text-align: center;">Jumlah Peserta Tender Terbanyak Pertahun</h3>
+          <canvas id="myChart2"></canvas>
+        </div>
+
+        <div class="container">
+          <p style="color: transparent;">  s</p>
+          <p style="color: transparent;">  s</p>
+          <h3 style="text-align: center;">Jumlah Perusahaan Yang Tidak Pernah Menang</h3>
+          <canvas id="myChart3"></canvas>
+        </div>
+
+        <div class="container">
+          <p style="color: transparent;">  s</p>
+          <p style="color: transparent;">  s</p>
+          <h3 style="text-align: center;">Jumlah Tender Selesai Pertahun</h3>
+          <canvas id="myChart4"></canvas>
+        </div>
+
+        <div class="container">
+          <p style="color: transparent;">  s</p>
+          <p style="color: transparent;">  s</p>
+          <h3 style="text-align: center;">Jumlah Tender Dibatalkan Pertahun</h3>
+          <canvas id="myChart5"></canvas>
+        </div>
+
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-info">
+            <a href="index.html" class="footer-logo">A<span>li</span>ma</a>
+            <h3>Politeknik Negeri Bandung</h3>
+            <div class="footer-menu">
+              <p>Ciwaruga, Parongpong, Kab. Bandung Barat</p>
+              <p>polban@polban.ac.id</p>
+            </div>
+            <div class="footer-social">
+              <a href="https://www.youtube.com/channel/UCdRxGHXVIJLCNXmxbeHWtUw"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/politekniknegeribandung/"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                &copy; <a href="#">Kelompok A5 2022</a>, All Right Reserved.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>Designed By <a href="https://htmlcodex.com">Alima</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+      var ctx = document.getElementById('myChart');
+      var chart = new Chart(ctx, {
+          type: 'bar',
+          data:{
+              datasets:[{
+                  backgroundColor: "#FFCDD2"
+              }
+          ]},
+          plugins: [ChartDataSource],
+          options: {
+              title : {
+                  display : true,
+                  fontsize:35,
+                  text: 'Jumlah Peserta per Tahun'
+
+              },
+              plugins :{
+                  datasource: {
+                      url: 'Visualisasi.xlsx',
+                      rowMapping: 'index',
+                      datasetLabels: "'Peserta Tender Pertahun'!B1",
+                      indexLabels: 'Peserta Tender Pertahun!A2:A6',
+                      data: 'Peserta Tender Pertahun!B2:B6'
+                  }
+              }
+              
+          }
+      });
+    </script>
+    <script>
+      var ctx2 = document.getElementById('myChart2');
+      var chart2 = new Chart(ctx2, {
+          type: 'doughnut',
+          data:{
+              datasets:[{
+                  backgroundColor: ["#C5CAE9","#9FA8DA","#7986CB","#5C6BC0","#3F51B5"]
+              }
+          ]},
+          plugins: [ChartDataSource],
+          options: {
+              title : {
+                  display : true,
+                  fontsize:35,
+                  text: 'Tender dengan Jumlah Peserta Terbanyak'
+
+              },
+              plugins :{
+                  datasource: {
+                      url: 'Visualisasi.xlsx',
+                      rowMapping: 'index',
+                      datasetLabels: "'Peserta Terbanyak'!B1",
+                      indexLabels: 'Peserta Terbanyak!A2:A6',
+                      data: 'Peserta Terbanyak!B2:B6'
+                  }
+              }
+              
+          }
+      });
+    </script>
+    <script>
+      var ctx3 = document.getElementById('myChart3');
+      var chart3 = new Chart(ctx3, {
+          type: 'pie',
+          data:{
+              datasets:[{
+                  backgroundColor: ["#C8E6C9","#A5D6A7","#81C784","#66BB6A","#4CAF50"]
+              }
+          ]},
+          plugins: [ChartDataSource],
+          options: {
+              title : {
+                  display : true,
+                  fontsize:35,
+                  text: 'Perusahaan yang Tidak Pernah Menang'
+
+              },
+              plugins :{
+                  datasource: {
+                      url: 'Visualisasi.xlsx',
+                      rowMapping: 'index',
+                      datasetLabels: "'Tidak Pernah Menang'!B1",
+                      indexLabels: 'Tidak Pernah Menang!A2:A6',
+                      data: 'Tidak Pernah Menang!B2:B6'
+                  }
+              }
+              
+          }
+      });
+    </script>
+    <script>
+      var ctx4 = document.getElementById('myChart4');
+      var chart4 = new Chart(ctx4, {
+          type: 'line',
+          data:{
+              datasets:[{
+                  borderColor: "#4A148C"
+              }
+          ]},
+          plugins: [ChartDataSource],
+          options: {
+              title : {
+                  display : true,
+                  fontsize:35,
+                  text: 'Jumlah tender yang selesai'
+
+              },
+              plugins :{
+                  datasource: {
+                      url: 'Visualisasi.xlsx',
+                      rowMapping: 'index',
+                      datasetLabels: "'Tender Selesai'!B1",
+                      indexLabels: 'Tender Selesai!A2:A6',
+                      data: 'Tender Selesai!B2:B6'
+                  }
+              }
+              
+          }
+      });
+    </script>
+    <script>
+      var ctx5 = document.getElementById('myChart5');
+      var chart5 = new Chart(ctx5, {
+          type: 'polarArea',
+          data:{
+              datasets:[{
+                  backgroundColor: ["#B3E5FC","#81D4FA","#4FC3F7","#29B6F6","#03A9F4"]
+              }
+          ]},
+          plugins: [ChartDataSource],
+          options: {
+              title : {
+                  display : true,
+                  fontsize:35,
+                  text: 'Jumlah tender yang dibatalkan'
+
+              },
+              plugins :{
+                  datasource: {
+                      url: 'Visualisasi.xlsx',
+                      rowMapping: 'index',
+                      datasetLabels: "'Tender Batal'!B1",
+                      indexLabels: 'Tender Batal!A2:A6',
+                      data: 'Tender Batal!B2:B6'
+                  }
+              }
+              
+          }
+      });
+    </script>
+  </body>
+</html>
