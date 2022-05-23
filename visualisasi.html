@@ -34,8 +34,8 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-      <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   </head>
 
   <body>
@@ -121,7 +121,7 @@
         </div>
 
         <div class="container">
-          <h3 style="text-align: center;">Jumlah Peserta Tender Pertahun</h3>
+          <h3 style="text-align: center;">Jumlah Peserta Tender Per tahun</h3>
           <canvas id="myChart"></canvas>
         </div>
 
@@ -239,6 +239,25 @@
       });
     </script>
     <script>
+      var options = {
+          tooltips: {
+              enabled: false
+          },
+          plugins: {
+              datalabels: {
+                  formatter: (value, ctx) => {
+                      let sum = 0;
+                      let dataArr = ctx2.chart.options.plugins.datasource.data;
+                      dataArr.map(data => {
+                          sum += data;
+                      });
+                      let percentage = (value*100 / sum).toFixed(2)+"%";
+                      return percentage;
+                  },
+                  color: '#fff',
+              }
+          }
+      };
       var ctx2 = document.getElementById('myChart2');
       var chart2 = new Chart(ctx2, {
           type: 'doughnut',
@@ -263,6 +282,13 @@
                       indexLabels: 'Peserta Terbanyak!A2:A6',
                       data: 'Peserta Terbanyak!B2:B6'
                   }
+                  // datalabels: {
+                  //       formatter: function (value, context) {
+                  //           return context.chart.data.indexLabels[
+                  //               context.data
+                  //           ];
+                  //       },
+                  //   },
               }
               
           }
@@ -331,10 +357,10 @@
     <script>
       var ctx5 = document.getElementById('myChart5');
       var chart5 = new Chart(ctx5, {
-          type: 'polarArea',
+          type: 'line',
           data:{
               datasets:[{
-                  backgroundColor: ["#B3E5FC","#81D4FA","#4FC3F7","#29B6F6","#03A9F4"]
+                  borderColor: "#29B6F6"
               }
           ]},
           plugins: [ChartDataSource],
